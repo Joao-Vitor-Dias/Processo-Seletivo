@@ -5,14 +5,14 @@ public class Main {
 
     public static void main(String[] args) {
 
-        contato();
+        aprovar();
 
 
     }
 
     static double salario;
     static int aprovados;
-    static String [] nomes = {"Heber","Jse","Urie","Rapa","Pleio","Reio","Plego","Roger","Peitos","Seios"};
+    static String [] nomes = {"Helena","Miguel","Gael","Ravi","Ravi","Theo","Heitor","Cecilia","Arthur","Maite"};
     static int i = 0;
     static boolean atendeu = false;
     static int cont;
@@ -45,7 +45,7 @@ public class Main {
     }
 
     public static void lista(){
-        String [] nomes = {"Heber","Jse","Urie","Rapa","Pleio"};
+        String [] nomes = {"Helena","Miguel","Gael","Ravi","Ravi"};
         System.out.println("LISTA DOS APROVADOS COM INDICE");
         for(i=0;i <= nomes.length -1 ; i++){
             int posicao = i;
@@ -65,7 +65,7 @@ public class Main {
 
 
     public static void contato(){
-        String [] nomes = {"Heber","Jse","Urie","Rapa","Pleio"};
+        String [] nomes = {"Helena","Miguel","Gael","Ravi","Ravi"};
         for(String candidato:nomes) {
             cont = 0;
             do {
